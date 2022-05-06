@@ -49,7 +49,7 @@
                     <InstallFrom>
                         <MetaData wcm:action="add">
                             <Key>/IMAGE/NAME</Key>
-                            <Value>Windows Server 2019 SERVERSTANDARD</Value>
+                            <Value>Windows Server 2019 DATACENTER</Value>
                         </MetaData>
                     </InstallFrom>
                     <InstallTo>
@@ -188,5 +188,5 @@
             </UserAccounts>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim:c:/wim/install.wim#Windows Server 2019 SERVERSTANDARD" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:c:/wim/install.wim#Windows Server 2019 DATACENTER" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
